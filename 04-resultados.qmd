@@ -1,11 +1,7 @@
 # Resultados
 
-O sistema demonstrou viabilidade técnica e resultados promissores. A integração com VLibras e o uso de modelos modernos de ASR indicam grande potencial para transformar o acesso à comunicação para pessoas com deficiência auditiva.
+Apresente resultados do funcionamento do sistema, testes e validações.
 
-Espera-se que a aplicação possa ser expandida e adaptada para ambientes educacionais, públicos e institucionais.
-
-
- 
 ```{r}
 #| label: fig-dashboard
 #| fig-cap: "Tela do sistema funcional com fluxo N8N"
