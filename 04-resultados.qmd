@@ -5,7 +5,7 @@ O sistema demonstrou viabilidade técnica e resultados promissores. A integraç�
 Espera-se que a aplicação possa ser expandida e adaptada para ambientes educacionais, públicos e institucionais.
 
 
-
+ 
 ```{r}
 #| label: fig-dashboard
 #| fig-cap: "Tela do sistema funcional com fluxo N8N"
