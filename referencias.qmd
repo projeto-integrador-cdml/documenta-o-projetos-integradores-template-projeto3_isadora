@@ -1,6 +1,8 @@
 # Referências
 
-As referências estão organizadas no arquivo `.bib` e serão exibidas automaticamente.
-
-::: {#refs}
-:::
+BRASIL. Lei nº 10.436/2002 – Reconhece a Libras
+BRASIL. Lei nº 13.146/2015 – Estatuto da Pessoa com Deficiência
+IBGE. Censo Demográfico 2019
+OpenAI. Whisper Speech Recognition Model.
+VLibras – https://www.vlibras.gov.br
+Hugging Face. Whisper fine-tuning docs
