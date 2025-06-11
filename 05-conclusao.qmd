@@ -1,3 +1,5 @@
 # Conclusão
 
-Apresente as principais conclusões, dificuldades enfrentadas, próximos passos e sugestões.
+O sistema demonstrou viabilidade técnica e resultados promissores. A integração com VLibras e o uso de modelos modernos de ASR indicam grande potencial para transformar o acesso à comunicação para pessoas com deficiência auditiva.
+
+Espera-se que a aplicação possa ser expandida e adaptada para ambientes educacionais, públicos e institucionais.
