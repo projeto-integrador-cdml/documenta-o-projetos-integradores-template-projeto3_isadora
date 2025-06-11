@@ -1,6 +1,13 @@
 # Metodologia
 
-Explique como o projeto foi desenvolvido: metodologia ágil utilizada, etapas de desenvolvimento, ferramentas.
+Metodologia baseada no ciclo CRISP-DM:
+
+Entendimento do Problema
+Coleta e Geração de Dados
+Preparação dos Dados
+Modelagem com IA
+Avaliação do Sistema
+Deploy e Testes com Usuários
 
 ## Tecnologias e Ferramentas
 
