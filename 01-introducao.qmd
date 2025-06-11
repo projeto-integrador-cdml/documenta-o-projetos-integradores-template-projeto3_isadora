@@ -1,3 +1,4 @@
 # Introdução
+O projeto Acessibilidade busca desenvolver uma solução computacional que promova a inclusão social de pessoas surdas ou com deficiência auditiva, por meio da tradução automática da fala em português brasileiro (PT-BR) para a Língua Brasileira de Sinais (Libras), em tempo quase real.
 
-Descreva o contexto, o problema que o projeto pretende resolver e os objetivos gerais.
+A proposta visa contribuir com os princípios da Lei Brasileira de Inclusão da Pessoa com Deficiência (Lei nº 13.146/2015), ao utilizar tecnologias acessíveis e modernas para reduzir barreiras de comunicação enfrentadas diariamente por esse público.
