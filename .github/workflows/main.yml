@@ -1,0 +1,35 @@
+name: Render Quarto PDF
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  render-pdf:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v3
+
+      - name: Instalar Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Instalar LaTeX (TinyTeX)
+        uses: r-lib/actions/setup-tinytex@v2
+
+      - name: Instalar dependências do sistema
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libxt-dev libfontconfig1-dev
+
+      - name: Renderizar PDF
+        run: |
+          quarto render --to pdf
+
+      - name: Fazer upload do PDF como artefato
+        uses: actions/upload-artifact@v3
+        with:
+          name: documentacao-pdf
+          path: "*.pdf"
