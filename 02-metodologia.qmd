@@ -11,8 +11,14 @@ Deploy e Testes com Usuários
 
 ## Tecnologias e Ferramentas
 
-- RAG com LlamaIndex e OpenAI
-- Orquestração com N8N
-- Frontend em React, Backend em FastAPI
-- Base vetorizada em FAISS
-- GitHub Actions para CI/CD
+-Modelo: Whisper + HuggingFace
+-Pré-processamento: Librosa + WhisperProcessor
+-Treinamento: HuggingFace Trainer
+
+Scripts:
+-config.py – Hiperparâmetros
+-whisper.py – Execução do modelo
+
+Deploy e Integração
+-Execução local
+-Pipeline funcional com Whisper + VLibras
