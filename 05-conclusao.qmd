@@ -1,3 +1,25 @@
 # Conclusão
 
-Apresente as principais conclusões, dificuldades enfrentadas, próximos passos e sugestões.
+O sistema demonstrou viabilidade técnica e resultados promissores. A integração com VLibras e o uso de modelos modernos de ASR indicam grande potencial para transformar o acesso à comunicação para pessoas com deficiência auditiva.
+Espera-se que a aplicação possa ser expandida e adaptada para ambientes educacionais, públicos e institucionais.
+
+-Limitações do Projeto:
+Ainda não testado com usuários surdos reais
+Dados simulados, sem grande variedade regional
+Dependência de conexão para VLibras
+Latência perceptível em máquinas modestas
+
+-Aspectos Éticos e Legais
+Não há coleta de dados pessoais
+Licenças do Whisper e VLibras respeitadas
+
+-Futura integração
+Interface gráfica
+Captura de voz em tempo real
+Tradução com avatar 3D integrado
+
+-Planejamento / Roadmap
+Fase	Entregas	Status
+Fase 1	Implementação técnica básica	✅ Concluída
+Fase 2	Interface + testes com usuários	⏳ Em planejamento
+Fase 3	App mobile + legendas + relatórios	⏳ Em planejamento

@@ -1,3 +1,25 @@
 # Introdução
+O projeto Acessibilidade busca desenvolver uma solução computacional que promova a inclusão social de pessoas surdas ou com deficiência auditiva, por meio da tradução automática da fala em português brasileiro (PT-BR) para a Língua Brasileira de Sinais (Libras), em tempo quase real.
 
-Descreva o contexto, o problema que o projeto pretende resolver e os objetivos gerais.
+A proposta visa contribuir com os princípios da Lei Brasileira de Inclusão da Pessoa com Deficiência (Lei nº 13.146/2015), ao utilizar tecnologias acessíveis e modernas para reduzir barreiras de comunicação enfrentadas diariamente por esse público.
+
+# Fundamentação Teórica
+A deficiência auditiva impacta diretamente a participação social e educacional de milhões de brasileiros. Segundo o IBGE (2019), cerca de 10 milhões de brasileiros têm algum grau de deficiência auditiva, dos quais 2,3 milhões têm deficiência severa.
+
+A Libras é reconhecida oficialmente no Brasil pela Lei nº 10.436/2002, e sua disseminação é fundamental para garantir a comunicação e inclusão dessas pessoas. Entretanto, grande parte da população não domina Libras, e poucos espaços contam com intérpretes, criando um vácuo de acessibilidade comunicacional.
+
+Com os avanços recentes em Inteligência Artificial, especialmente nos campos de reconhecimento automático de fala (ASR) e tradução de linguagem natural, surgem novas possibilidades para a construção de sistemas acessíveis e em tempo real. O modelo Whisper, da OpenAI, se destaca por sua alta precisão em múltiplos idiomas, inclusive o português.
+
+Ao integrar modelos de ASR com ferramentas como o VLibras, o presente projeto propõe uma inovação prática e socialmente relevante, alinhando tecnologia de ponta com os princípios da tecnologia assistiva e inclusão digital.
+
+#Objetivos
+
+#Objetivo Geral
+Desenvolver um sistema automatizado que capte, transcreva e traduza a fala em PT-BR para Libras, com ênfase na simplicidade de uso, acessibilidade e tempo de resposta próximo ao tempo real.
+
+#Objetivos Específicos
+Implementar pipeline de ASR com o modelo Whisper
+Integrar o sistema com a API VLibras
+Criar base simulada de áudios e transcrições
+Desenvolver interface funcional para desktop e futuramente mobile
+Avaliar desempenho técnico e usabilidade com usuários reais

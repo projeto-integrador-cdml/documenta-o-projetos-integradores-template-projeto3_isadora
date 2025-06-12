@@ -1,11 +1,43 @@
 # Desenvolvimento
 
-Detalhe o processo de implementação.
+-Base de Dados
+Fonte: Base própria, com áudios simulando interações reais.
+
+-Formato
+Arquivos .json com: audio_path e text
+Áudios em .wav padronizados
+
+-Divisão dos dados
+train.json – Treinamento
+validation.json – Validação
+test.json – Testes
+
+-Preparação dos Dados
+Padronização de sample rate, canais e volume
+Geração de logs (audio_standadization.log)
+Estatísticas agregadas (stats_log.json)
+
+-Análise Exploratória (EDA)
+A Análise Exploratória de Dados (EDA) foi conduzida com o objetivo de compreender melhor a estrutura da base de dados gerada manualmente para este projeto. Essa etapa é essencial para identificar padrões, inconsistências, possíveis vieses e direcionar decisões para a modelagem e o treinamento dos modelos de transcrição e tradução.
+Foram utilizados scripts em Python com bibliotecas como pandas, matplotlib, seaborn e librosa para análise exploratória e visual das principais características dos dados.
 
 ## Arquitetura da Solução
 
-```{r}
-#| label: fig-arquitetura
-#| fig-cap: "Arquitetura do sistema proposto"
-knitr::include_graphics("imagens/arquitetura.png")
-```
+acessibilidade/
+├── data/
+│   ├── log/
+│   ├── translate/
+│   └── utils/
+├── models/
+├── debug/
+├── .vscode/
+├── requirements.txt
+└── README.md
+
+#Instalação
+
+git clone https://github.com/ggmsbsb/projeto1-acessibilidade.git
+cd acessibilidade
+python -m venv venv
+source venv/bin/activate  # Windows: venv\\Scripts\\activate
+pip install -r requirements.txt
